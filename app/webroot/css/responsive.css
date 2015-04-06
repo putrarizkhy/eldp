@@ -1,0 +1,302 @@
+/*-------------------------------------------------------*/
+	/* Media Queries */
+/*-------------------------------------------------------*/
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+
+/* Ipad Portrait and Landscape Resoulution */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+.main{ width:95%;}
+.rb-grid li:nth-child(7){ width:240px; height:240px; box-shadow:none;  }
+.rb-grid li:nth-child(7):hover{ width:240px; height:240px;}
+.rb-grid li:nth-child(9){ margin-top:5px; margin-left:5px;}
+.main,
+.container > .top { padding-left:40px; }
+
+.logo_bg{width:736px;}
+.header_rightbg{ padding-left:27px;}
+.rb-overlay .header_rightbg{ width:36%;   padding-left:78px; }
+
+/* Services */
+#services .rb-grid li:nth-child(1){width:240px; height:488px; box-shadow:none; }
+#services .rb-grid li:nth-child(2){width:240px; height:488px; }
+#services .rb-grid li:nth-child(5) .entypo i:before { top:-65%; left:0%; }
+#services .rb-grid li:nth-child(6) .entypo i:before { top:-65%; left:0%; }
+#services .rb-grid li:nth-child(7) .entypo i:before { top:-65%;  left:0%; }
+#services .entypo i:before{top:-65%;  }
+#services .box_heading{padding-top:50px;}
+#services blockquote:after { 
+margin-left: 92%; 
+ }
+/* // Services */
+
+/* About */
+#about .rb-grid li:nth-child(1){width:240px; height:488px; box-shadow:none; }
+#about .rb-grid li:nth-child(2){width:488px; height:240px; }
+#about .rb-grid li:nth-child(3){width:488px; height:240px; }
+#about .rb-grid li:nth-child(4){ box-shadow:none;}
+#about .entypo i:before{top:-65%;  }
+/* // About */
+
+/* Resume */
+#resume .rb-grid li:nth-child(1){ box-shadow:none;  width:240px; height:488px;}
+#resume .rb-grid li:nth-child(5){width:240px; height:240px; }
+#resume .rb-grid li:nth-child(8){ box-shadow:none; }
+#resume .rb-grid li:nth-child(9){margin-top:5px; margin-left:5px; }
+#resume .entypo i:before{top:-65%;  }
+/* // Resume */
+
+/* Portfolio */
+#portfolio .rb-grid li:nth-child(1){width:240px; height:488px; box-shadow:none; }
+#portfolio .rb-grid li:nth-child(7){ box-shadow:none; }
+#portfolio .entypo i:before{top:-65%;  }
+/* // Portfolio */
+
+/* Twitter */
+.rb-grid li:nth-child(9){ width:240px; height:240px;}
+.rb-grid li:nth-child(9):hover{ width:240px; height:240px;}
+/* // Twitter */
+
+/* Contact */
+#contact .rb-grid li:nth-child(1){width:240px; height:488px; box-shadow:none; }
+#contact .rb-grid li:nth-child(2){width:488px; height:240px; }
+#contact iframe{ width:488px; height:240px; border:0; outline:0; }
+#contact .rb-grid li:nth-child(5){
+	-webkit-box-shadow: 0px 20px 20px -5px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    0px 20px 20px -5px rgba(0, 0, 0, 0.2);
+	box-shadow:         0px 20px 20px -5px rgba(0, 0, 0, 0.2);	
+ }
+#contact .rb-grid li:nth-child(6){ margin-top:5px; margin-left:5px; width:488px; height:240px; }
+#contact .entypo i:before{top:-65%;  }
+#contact textarea{ width:74%; }
+iframe{ width:488px; height:240px;}
+input[type="submit"]{ width:80px; height:85px;  }
+#send .entypo i:before{ left:77%; top:42%; }
+/* // Contact */
+}
+
+/* Iphone Portrait and Landscape Resoulution */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+.sub_page h1 { font-size: 35px; line-height: 35px; }
+.rb-grid li:nth-child(1){width:488px; height:240px; }
+.rb-grid li:nth-child(6){ width:240px; height:240px; }
+.rb-grid li:nth-child(6):hover{ width:240px; height:240px; }
+.rb-grid li:nth-child(8){ width:240px; height:240px;}
+.rb-grid li:nth-child(8):hover{ width:240px; height:240px;}
+.rb-grid li:nth-child(9){ width:240px; height:240px; }
+.rb-grid li:nth-child(9):hover{ width:240px; height:240px; }
+.rb-grid li:nth-child(7){ box-shadow:none; }
+.main,
+.container > .top {
+	padding-left:10px;
+}
+	
+.rb-span-13 .{
+	font-size:13px;
+	line-height:18px;
+}
+.logo_left{ width:100%;}
+.header_rightbg{ display:none; }
+
+/* About */
+#about .rb-grid li:nth-child(1){width:240px; height:488px; box-shadow:none; }
+#about .rb-grid li:nth-child(2){width:240px; height:488px; }
+#about .entypo i:before{top:-10%;  }
+/* // About */
+
+/* Services */
+#services .rb-grid li:nth-child(1){width:240px; height:488px; box-shadow:none; }
+#services .rb-grid li:nth-child(2){width:240px; height:488px; }
+#services .entypo.cog i:before{top:-10%;  }
+/* // Services */
+
+/* Resume */
+#resume .rb-grid li:nth-child(1){  width:240px; height:488px; box-shadow:none; }
+#resume .rb-grid li:nth-child(5){  width:240px; height:240px; }
+#resume .rb-grid li:nth-child(9){ margin-top:5px; margin-left:5px; }
+#resume .entypo i:before{top:-10%;  }
+/* // Resume */
+
+/* Social */
+#social_network { margin:0px 0px 0px 20px; }
+/* // Social */
+
+
+/* Portfolio */
+#portfolio .rb-grid li:nth-child(1){  width:240px; height:488px; box-shadow:none; }
+#portfolio .entypo i:before{top:-10%;  }
+/* // Portfolio */
+
+/* Contact */
+#contact .rb-grid li:nth-child(1){width:240px; height:488px; box-shadow:none; }
+#contact .rb-grid li:nth-child(2){width:240px; height:488px; }
+#contact .rb-grid li:nth-child(6){width:240px; height:488px; }
+#contact iframe{ width:240px; height:488px;}
+input[type="text"], textarea{ width:100%; }
+input[type="submit"]{ clear:both; margin-top:10px; }
+#send .entypo i:before{
+	font-size:80px;
+	color:#fff;
+	position:absolute;
+	left:7%;
+	top:61%;
+}
+/* // Contact */
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+{
+/* Typography */
+.sub_page .logo{ font-size: 28px; line-height: 28px; }	
+/* // Typography */
+
+.rb-grid li:nth-child(1){width:240px; height:240px;}
+.rb-grid li:nth-child(6){width:240px; height:240px; }
+.rb-grid li:nth-child(6):hover{ margin-top:5px; margin-left:5px; width:240px; height:240px; }
+.rb-grid li:nth-child(7), .rb-grid li:nth-child(8) { box-shadow:none; }
+.rb-grid li:nth-child(8){ width:240px; height:240px;}
+.rb-grid li:nth-child(8):hover{ width:240px; height:240px;}
+.rb-grid li:nth-child(9){ margin-top:5px; margin-left:5px; width:240px; height:240px; }
+
+.caption p{ font-size:13px; line-height:16px;}
+.caption .box_title{font-size:19px;}
+
+.main,
+.container > .top {
+	padding-left:10px;
+}
+.container {}	
+.rb-span-13 .contact_title{
+	font-size:13px;
+	line-height:18px;
+}
+.logo_left{ width:100%;}
+.header_rightbg{display:none; }
+.image_box{ width:240px; height:240px; }
+.image_box:hover{ width:240px; height:240px; }
+.caption { width:240px; }
+/* About */
+#about .rb-grid li:nth-child(1){width:240px; height:488px; box-shadow:none; }
+#about .rb-grid li:nth-child(2){width:240px; height:488px; }
+#about .rb-grid li:nth-child(4){width:240px; height:488px; }
+#about .rb-grid li:nth-child(5){ display:none; }
+#about .entypo i:before{top:-10%;  }
+/* // About */
+
+/* Resume */
+#resume .rb-grid li:nth-child(1){width:240px; height:460px; box-shadow:none;}
+#resume .rb-grid li:nth-child(5){ box-shadow:none;}
+#resume .rb-grid li:nth-child(6){box-shadow:none; }
+#resume .rb-grid li:nth-child(7){width:240px; height:240px; margin-left:5px; margin-top:5px; }
+#resume .rb-grid li:nth-child(8){width:240px; height:240px; }
+#resume .entypo i:before{top:-10%;  }
+/* // Resume */
+
+/* Services */
+#services .rb-grid li:nth-child(1){  width:240px; height:460px; box-shadow:none;}
+#services .rb-grid li:nth-child(2){  width:240px; height:488px; }
+#services .rb-grid li:nth-child(7){ box-shadow:none;}
+#services .rb-grid li:nth-child(8){ box-shadow:none;}
+
+#services .entypo.cog i:before{top:-10%;  }
+/* // Services */
+
+/* Social */
+#social_network { margin:0px 0px 0px 20px; }
+/* // Social */
+
+/* Portfolio */
+#portfolio .rb-grid li:nth-child(1){width:240px; height:460px; box-shadow:none;}
+#portfolio .rb-grid li:nth-child(8){box-shadow:none;}
+#portfolio .rb-grid li:nth-child(9){box-shadow:none;}
+#portfolio .entypo i:before{top:-10%;  }
+/* // Portfolio */
+
+/* Contact */
+#contact .rb-grid li:nth-child(1){width:240px; height:460px; box-shadow:none;}
+#contact .rb-grid li:nth-child(2){width:240px; height:240px; }
+#contact .rb-grid li:nth-child(6){width:240px; height:460px; }
+
+iframe{ width:240px; height:240px;}
+.twitter p{ margin-top:-10px;}
+input[type="text"], textarea{ width:100%; clear:both; }
+input[type="submit"]{ clear:both; margin-top:10px; }
+#send .entypo i:before{
+	font-size:80px;
+	color:#fff;
+	position:absolute;
+	left:7%;
+	top:65%;
+}
+
+/* // Contact */
+}
+
+
+
+/* Retina for Eye Resolution Display */
+@media only screen and (-webkit-min-device-pixel-ratio: 2)  {
+	.image_box{
+    background-image: url('../images/image_01_2x.jpg');
+    background-size: 488px 240px;
+}
+	.image_box:hover{
+    background-image: url('../images/image_01_over_2x.jpg');
+    background-size: 488px 240px;
+}  
+	.rb-grid li:nth-child(2):hover{
+	background-image:url('../images/darkblue_bg_2x.jpg');
+    background-size: 240px 240px;
+}	
+	.rb-grid li:nth-child(3):hover{
+	background-image:url('../images/red_bg_2x.jpg');
+	background-size: 240px 240px;
+}
+	.rb-grid li:nth-child(4):hover{
+	background-image:url('../images/green_bg_2x.jpg');
+	background-size: 240px 240px;
+}
+	.rb-grid li:nth-child(5):hover{
+	background-image:url('../images/pink_bg_2x.jpg');
+	background-size: 240px 240px;
+}
+	.rb-grid li:nth-child(6):hover{
+	background-image:url('../images/yellow_bg_2x.jpg');
+	background-size: 488px 240px;
+}
+	.rb-grid li:nth-child(7):hover{
+	background-image:url('../images/purple_bg_2x.jpg');
+	background-size: 240px 240px;
+}
+	.rb-grid li:nth-child(8):hover{
+	background-image:url('../images/purple_bg_2x.jpg');
+	background-size: 488px 240px;	
+}
+	.rb-grid li:nth-child(9):hover{
+	background-image:url('../images/lightgreen_bg_2x.jpg');
+	background-size: 240px 240px;	
+}
+
+
+.facebook{ background-image:url('../images/facebook_img@2x.png);' }
+.facebook:hover{ background-image:url('../images/facebook_over@2x.png); '}
+.twitters{ background-image:url('../images/twitter_img@2x.png);' }
+.twitters:hover{ background-image:url('../images/twitter_over@2x.png); '}
+.linkedin{ background-image:url('../images/linkedin_img@2x.png); '}
+.linkedin:hover{ background-image:url('../images/linkedin_over@2x.png);' }
+.skype{ background-image:url('../images/skype_img@2x.png); '}
+.skype:hover{ background-image:url('../images/skype_over@2x.png); '}
+.google{ background-image:url('../images/google_img@2x.png);' }
+.google:hover{ background-image:url('../images/google_over@2x.png); '}
+.rss{ background-image:url('../images/rss_img@2x.png); '}
+.rss:hover{ background-image:url('../images/rss_over@2x.png);' }
+
+
+
+
+
+  
+}
+/* // Retina for Eye Resolution Display */

@@ -1,0 +1,26 @@
+<div class="tile live" data-role="live-tile" data-effect="slideLeftRight">
+  <div class="tile-content">
+    <h1>
+      <?php          
+     echo $booking; 
+     ?>
+   </br><small> buku</small></br></h1>
+    <span class="ket" >Yang sedang di booking</span>
+  </div>
+  <div class="tile-content">
+    <h1>
+      <?php
+        echo $back;
+       ?>
+    </br><small> buku</small></br></h1>
+    <span class="ket">Yang harus dikembalikan hari ini</span>
+  </div>
+  <div class="tile-content">
+    <h1>
+      <?php
+        echo $late;
+       ?>
+    </br><small> buku</small></br></h1>
+    <span class="ket">Terlambat dikembalikan</span>
+  </div>
+</div>

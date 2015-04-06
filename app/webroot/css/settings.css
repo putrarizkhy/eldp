@@ -1,0 +1,60 @@
+/* CSS Document */
+
+ /* Settings panel Styles */
+#cfont,#confont{width:161px; height:30px; line-height:30px; padding:3px; margin-left:84px; font: 12px Arial, Helvetica, sans-serif; color:#fffff;}
+.settings-panel { position: fixed; top:120px; left: 0px; width: 173px; background-color: #fff; border: 1px solid #ebeff0; padding: 2px 5px 10px; margin-left: -175px; z-index: 99999; }
+.settings-panel .open-buttton { display: block; width: 32px; height: 32px; background: url(../images/services-icon.png) center center #fff no-repeat; position: absolute; top: 184px; right: -33px; cursor: pointer; padding: 3px 2px 2px; border: 1px solid #ebeff0; border-left: none; }
+.settings-panel h5 { line-height: 12px; margin: 0px 0px 8px 0px; padding: 0px; color: #555; }
+.settings-panel .patterns , .settings-panel .backgrounds, .settings-panel .c_patterns   { overflow: hidden; margin: 0px 0px 0px -6px; padding: 0px 0px 3px 6px; }
+.settings-panel .patterns li, .settings-panel .backgrounds li, .settings-panel .c_patterns li { width: 35px; height: 35px; border: 1px solid #e1e4e5; float: left; margin: 0px 0px 5px 8px; cursor: pointer; }
+
+.settings-panel .backgrounds li.bgs1 { background: url(../images/patterns/bg01.jpg); }
+.settings-panel .backgrounds li.bgs2 { background: url(../images/patterns/bg02.jpg); }
+.settings-panel .backgrounds li.bgs3 { background: url(../images/patterns/bg03.jpg); }
+.settings-panel .backgrounds li.bgs4 { background: url(../images/patterns/bg04.jpg); }
+.settings-panel .backgrounds li.bgs5 { background: url(../images/patterns/bg05.jpg); }
+.settings-panel .backgrounds li.bgs6 { background: url(../images/patterns/bg06.jpg); }
+.settings-panel .backgrounds li.bgs7 { background: url(../images/patterns/bg07.jpg); }
+.settings-panel .backgrounds li.bgs8 { background: url(../images/patterns/bg08.jpg); }
+
+
+.settings-panel .patterns li.bgs1 { background: url(../images/patterns/pattern1.png); }
+.settings-panel .patterns li.bgs2 { background: url(../images/patterns/pattern2.png); }
+.settings-panel .patterns li.bgs3 { background: url(../images/patterns/pattern3.png); }
+.settings-panel .patterns li.bgs4 { background: url(../images/patterns/pattern4.png); }
+.settings-panel .patterns li.bgs5{ background: url(../images/patterns/pattern5.png); }
+.settings-panel .patterns li.bgs6 { background: url(../images/patterns/pattern6.jpg); }
+.settings-panel .patterns li.bgs7 { background: url(../images/patterns/pattern7.png); }
+.settings-panel .patterns li.bgs8 { background: url(../images/patterns/pattern8.png); }
+.settings-panel .patterns li.bgs9 { background: url(../images/patterns/pattern9.png); }
+.settings-panel .patterns li.bgs10 { background: url(../images/patterns/pattern10.png); }
+.settings-panel .patterns li.bgs11 { background: url(../images/patterns/pattern11.png); }
+.settings-panel .patterns li.bgs12 { background: url(../images/patterns/pattern12.png); }
+.settings-panel .patterns li.bgs13 { background: url(../images/patterns/pattern13.png); }
+.settings-panel .patterns li.bgs14 { background: url(../images/patterns/pattern14.png); }
+
+
+
+
+
+
+
+
+
+
+
+
+.settings-panel h5{ 
+	font-size:14px;
+	color:#61b1ca;
+	 font-weight:600;
+	 padding: 20px 3px 0px 10px;
+}
+
+.settings-panel { 
+	font-size:10x;
+}
+
+.fontred {
+	color: red;
+}

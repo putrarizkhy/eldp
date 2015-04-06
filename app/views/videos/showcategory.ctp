@@ -1,0 +1,162 @@
+<div id="home-content" class="clearfix">
+  <div id="shelf">
+    <?php foreach ($entries as $entry) :?>
+    
+    <div class="itemisotope">
+    <!--oneset-->
+      <div class="box" id="#">
+        <a href="#dataebook1" class="ebookpopup">
+          <img class="postim bittle" src="<?php echo $this->webroot?><?php echo $entry['Video']['cover']?>" width="150" height="190">
+        </a>
+      </div>
+
+      <div class="box-home">
+        <div class="btitle-home">
+            <h1><?php echo $entry['Video']['title']?></h1>
+                <p><?php echo $entry['Video']['pengarang']?> - <?php echo $entry['Video']['penerbit']?></p>
+                <br/>
+                <h2>Sinopsis</h2>
+                <p><?php echo $entry['Video']['details']?></p>
+        </div>
+        <div class="list" >
+          <a href="#dataebook1" class="ebookpopup">
+            <img class="bookcover" src="<?php echo $this->webroot?><?php echo $entry['Video']['cover']?>" alt="" style="display: inline-block; left: 0px; top: 0px; width: 150px;">
+          </a>
+        </div>
+      </div>
+
+      <div style="">
+        <div id="dataebook1" class="datapopup">
+        <div class="rack">
+          <div class="previewinsidepopup">
+            <img class="" src="<?php echo $this->webroot?><?php echo $entry['Video']['cover']?>" alt="" style="display: inline-block; left: 0px; top: 0px; width: 150px;">
+          </div>
+          <div class="datapopuppreview1">
+            
+            <a data-fancybox-type="iframe" href="<?php echo $this->webroot;?>files/ebooks/<?php echo $entry['Video']['id'];?>" title="#"><img src="<?php echo $this->webroot?>images/lihat-btn.png"/></a></br><a href="" title="#"><img style="margin-top: 32px;margin-left: 141px;" src="<?php echo $this->webroot?>images/download-btn.png"/><img href="#commentbook" class="ebookpopup" style="margin-top: 0px;margin-left: 141px;" src="<?php echo $this->webroot?>client/images/comment-btn.png"/></a>
+
+            <h1><?php echo $entry['Video']['title']?></h1>
+            <p><?php echo $entry['Video']['pengarang']?></p>
+            <br/>
+            <h2>Sinopsis</h2>
+            <p><?php echo $entry['Video']['details']?></p>
+            <br/>
+          </div>
+          <div class="bookdetailpopup2">
+            <dl class="desc-detail">    
+              <dt class="altrow">Id</dt>
+                <dd class="altrow"><?php echo $entry['Video']['id']?>  &nbsp;</dd>
+              <dt>Penerbit</dt>
+                <dd><?php echo $entry['Video']['penerbit']?> &nbsp;</dd>
+              <dt class="altrow">Pengarang</dt>
+                <dd class="altrow"><?php echo $entry['Video']['pengarang']?> &nbsp;</dd>
+              <dt>Thn Terbit</dt>
+                <dd><?php echo $entry['Video']['tahun']?> &nbsp;</dd>
+            </dl>
+
+          </div>
+
+          <div class="bookcomment">
+            <div style="display:none">
+            <div id="commentbook" class="datapopup">
+            <div class="commentbook">
+              <div class="postcomment" style="margin-top:30px;">
+                <div class="previewinsidepopup1">
+                  <img class="" src="client/images/avatar2.png" alt="" style="display: inline-block; left: 0px; top: 0px; ">
+                </div>
+                <div class="datapopuppreview2">
+                  
+                  
+
+                  <h2>Taufiq Ridha</h2>
+                  <p>This script is a reusable system for adding a graphical keyboard interface to text fields, password fields and textareas so they can be filled with mouse only. It also adds easy access to special characters your existing keyboard may not otherwise have the ability to generate.</p>
+                  <br/>
+                </div>
+              </div>
+              <div class="postcomment">
+                <div class="previewinsidepopup1">
+                  <img class="" src="client/images/avatar1.png" alt="" style="display: inline-block; left: 0px; top: 0px; ">
+                </div>
+                <div class="datapopuppreview2">
+                  
+                 
+                  <h2>Adden</h2>
+                  <p>This script is a reusable system for adding a graphical keyboard interface to text fields, password fields and textareas so they can be filled with mouse only. It also adds easy access to special characters your existing keyboard may not otherwise have the ability to generate.</p>
+                  <br/>
+                </div>
+              </div>
+
+              <div class="postcomment">
+                <div class="previewinsidepopup1">
+                  <img class="" src="client/images/no_avatar.png" alt="" style="display: inline-block; left: 0px; top: 0px; ">
+                </div>
+                <div class="datapopuppreview2">
+                  
+                 
+                  <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+                  <form action="demo_form.asp" id="usrform">
+                   
+                    <input type="submit">
+                  </form>
+                  <p>Anda harus login terlebih dahulu untuk menambah komentar     &nbsp;<a href="#"> Login</a></p>
+                </div>
+              </div>
+
+
+
+              
+            </div>
+            </div>
+          </div> 
+
+          </div>
+
+        </div>
+        </div>
+      </div>
+    </div>
+    <?php endforeach;?>
+
+  </div>
+</div>
+
+<?php
+//extract the get variables
+    $url = $this->params['url'];
+    unset($url['url']);
+    $get_var = http_build_query($url);
+     
+    $arg1 = array(); $arg2 = array();
+    //take the named url
+    if(!empty($this->params['named']))
+    $arg1 = $this->params['named'];
+     
+    //take the pass arguments
+    if(!empty($this->params['pass']))
+    $arg2 = $this->params['pass'];
+     
+    //merge named and pass
+    $args = array_merge($arg1,$arg2);
+     
+    //add get variables
+    $args["?"] = $get_var;
+     
+    $paginator->options(array('url' => $args));
+    
+?>
+<div class="paging">
+  <?php echo $paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
+ |  <?php echo $paginator->numbers();?>
+  <?php echo $paginator->next(__('next', true).' >>', array(), null, array('class' => 'disabled'));?>
+</div>
+
+  <nav id="page_nav">
+     <a href="#"></a>
+  </nav>
+<div class="bottomcover ">
+
+  <div id="bottom">
+    
+    <div class="clear"> </div>
+  </div>
+</div></div>

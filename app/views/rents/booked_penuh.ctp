@@ -1,0 +1,2 @@
+<span class="status rusak">Anda Tidak Berhasil Memboking buku ini, anda melebihi kuota peminjaman, silahkan balikkan buku yang anda pinjam terlebih dahulu <?php echo $html->link(__('Kembali', true), array('controller' => 'users', 'action' => 'home_user')); ?></span>
+				
