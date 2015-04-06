@@ -33,7 +33,7 @@ echo $javascript->link('jquery.jplayer.min.js');
     <div id="head" class="clearfix">
       <div id="blogname-home">  
         
-        <h1 class="logo"><a href="<?php echo $this->webroot;?>" title="#"><img src="<?php echo $this->webroot;?>client/images/new-logo.png"/></a></h1>
+        <h1 class="logo"><a href="<?php echo $this->webroot;?>" title="#"><img src="<?php echo $this->webroot;?>client/images/Logo-ELDP-User-05.png" style="width: 260px; height: auto;"/></a></h1>
       </div>
       
     </div><!--end masthead-->

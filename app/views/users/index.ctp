@@ -108,7 +108,7 @@ Telpon 021-: 8295455, Fax. 021-8351782</p>
         <div id="head" class="clearfix">
           <div id="blogname-home">  
             
-            <h1 class="logo"><a href="#" title="#"><img src="<?php echo $this->webroot;?>client/images/Logo-ELDP-User-05.png" style="width: 260px; height: auto;"/></a></h1>
+            <h1 class="logo"><a href="<?php echo $this->webroot;?>" title="#"><img src="<?php echo $this->webroot;?>client/images/Logo-ELDP-User-05.png" style="width: 260px; height: auto;"/></a></h1>
           </div>
           
         </div><!--end masthead-->

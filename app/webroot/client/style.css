@@ -435,7 +435,8 @@ h6 {
     font-size: 13px;
 }
 #listview{
-    background: #d08402 url('images/list-grid.png') no-repeat center center;
+    background: #FFD600 url('images/lgo-thumbnail-12.png') no-repeat center center;
+    background-size: 24px;
     width:34px;
     height: 34px;
     display: block;
@@ -444,13 +445,16 @@ h6 {
     
 }
 #listview.active,#listview:hover{
-    background: #9d6402 url('images/list-grid.png') no-repeat center center;
+    background: #E7C100 url('images/lgo-thumbnail-12.png') no-repeat center center;
+    background-size: 24px;
 }
 #listview1.active,#listview1:hover{
-    background: #9d6402 url('images/list-grid1.png') no-repeat center center;
+    background: #E7C100 url('images/logo-list-12.png') no-repeat center center;
+    background-size: 24px;
 }
 #listview1{
-    background: #d08402 url('images/list-grid1.png') no-repeat center center;
+    background: #FFD600 url('images/logo-list-12.png') no-repeat center center;
+    background-size: 24px;
     width:34px;
     height: 34px;
     display: block;
@@ -467,7 +471,8 @@ h6 {
     float: right;
 }
 #homeicon{
-    background: #d08402 url('images/home-icon.png') no-repeat center center;
+    background: #FFD600 url('images/logo-home-12.png') no-repeat center center;
+    background-size: 24px;
     width:34px;
     height: 34px;
     display: block;
@@ -475,10 +480,12 @@ h6 {
     margin: 0;
 }
 #homeicon:hover{
-    background: #9d6402 url('images/home-icon.png') no-repeat center center;
+    background: #E7C100 url('images/logo-home-12.png') no-repeat center center;
+    background-size: 24px;
 }
 #favorite{
-    background: #d08402 url('images/favorite.png') no-repeat center center;
+    background: #FFD600 url('images/logo-favorit-12.png') no-repeat center center;
+    background-size: 24px;
     width:34px;
     height: 34px;
     display: block;
@@ -486,11 +493,13 @@ h6 {
     margin: 0;
 }
 #favorite.active,#favorite:hover{
-    background: #9d6402 url('images/favorite.png') no-repeat center center;
+    background: #E7C100 url('images/logo-favorit-12.png') no-repeat center center;
+    background-size: 24px;
     
 }
 #comment{
-    background: #d08402 url('images/comment.png') no-repeat center center;
+    background: #FFD600 url('images/logo-komentar-12.png') no-repeat center center;
+    background-size: 24px;
     width:34px;
     height: 34px;
     display: block;
@@ -498,8 +507,8 @@ h6 {
     margin: 0;
 }
 #comment:hover{
-    background: #9d6402 url('images/comment.png') no-repeat center center;
-    
+    background: #E7C100 url('images/logo-komentar-12.png') no-repeat center center;
+    background-size: 24px;
 }
 
 #listview h1 {
@@ -1772,7 +1781,7 @@ width: 100%;
     position: relative;
     margin-top: 10px;
     margin-left: 20px;
-    background-color: #d08402;
+    background-color: #FFD600;
 }
 .f-dropdown1{
    border: solid 10px #F1EEE5; 
@@ -2138,7 +2147,7 @@ box-shadow:         0px -1px 4px 0px rgba(50, 50, 50, 0.75);
 
 
 #searchbar input[type="text"] {
-    background: url(images/search-white.png) no-repeat 95% 50% #535353;
+    background: url(images/search-white.png) no-repeat 95% 50% #799C8E;
     border: 0 none;
     
     color: #d7d7d7;
@@ -2230,6 +2239,16 @@ body#landing{
     left: 70px;
     z-index: 6;
 }
+
+.logo{
+    position: absolute;
+    top: 50px;
+    right: 330px;
+    width: 260px;
+    height: auto;
+    z-index: 6;
+}
+
 #libraryidentity{
     position: absolute;
     top:30px;
