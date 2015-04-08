@@ -13,7 +13,7 @@
 </style>
 
 <div class="loginformcontainer">
-<img src="<?php echo $this->webroot;?>images/user-ico.png" style="margin-bottom:8px;">
+<img src="<?php echo $this->webroot;?>images/icon-login-08.png" style="margin-bottom:8px; width: 80px;">
 <h2 style="font-size:18px;margin-bottom:20px;color:#155d58;line-height:20px;">LOGIN</h2>
 <script>
 $.metadata.setType("attr", "validate");

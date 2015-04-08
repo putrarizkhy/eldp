@@ -41,7 +41,7 @@
   <!-- Preloader-  END--> 
 
   <div class="background">
-  <img src="<?php echo $this->webroot;?>slider/image1.png" alt="pic1" />
+  <img src="<?php echo $this->webroot;?>slider/matdes.jpg" alt="pic1" />
     <!--<img src="slider/image2.png" alt="pic2" />
    
   <img src="slider/3.jpg" alt="pic3" />
