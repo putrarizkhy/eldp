@@ -379,7 +379,7 @@ h6 {
 #casing {
     width: 991px;
     margin: 0px auto;
-    background: url(../client/images/background-eldp-user-03.jpg) no-repeat;
+    background: url(../client/images/ELDP-User-bg-bulet2-03.png) no-repeat;
     background-size: 1000px 900px;
     background-position-y: -190px;
     background-color: #F4EFE9;
@@ -695,6 +695,7 @@ h6 {
 
 #home-content {
     background: url(../client/images/contentbawahtransparan.png) repeat-y;
+    background-position-y: 50px;
     padding: 0px 0px;
 }
 #home-content1 {
@@ -1185,7 +1186,7 @@ table#wp-calendar {
 
 .bottomcover {
     background: url(images/footer.png);
-    border-top: 10px solid #e99f3b;
+    border-top: 10px transparent #e99f3b;
     margin: 0px 0px 0px 0px;
     padding: 0px;
 }
@@ -1193,7 +1194,7 @@ table#wp-calendar {
 #bottom {
     width: 960px;
     margin: 0px auto;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px transparent #333;
 }
 
 #bottom ul {
@@ -2174,7 +2175,7 @@ box-shadow:         0px -1px 4px 0px rgba(50, 50, 50, 0.75);
     /*text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);*/
 }
 .rack{
-    background: url(images/homecontent1.png) no-repeat;
+    background: url(images/popup-bg-04.png) no-repeat;
     float: left;
 }
 .commenthome{
@@ -2303,12 +2304,12 @@ body#landing{
 #prevpage{
     
     color: #fff;
-    background-color: #d08402;
+    background-color: #56BCBC;
     margin-right: 5px;
     margin-top: -4px;
     padding: 1px 10px;
      -webkit-border-radius: 3px;
-    border-radius: 3px;
+    border-radius: 15px;
     display: inline-block;
     
 }
@@ -2316,20 +2317,20 @@ body#landing{
     
     padding: 1px 10px;
     color: #fff;
-    background-color: #d08402;
+    background-color: #56BCBC;
     margin-top: -4px;
     display: inline-block;
     -webkit-border-radius: 3px;
-    border-radius: 3px;
+    border-radius: 15px;
 }
 
 a#prevpage:hover{
     color:#fff;
-    background-color: #d08402;
+    background-color: #7ACACA;
 }
 a#nextpage:hover{
     color:#fff;
-    background-color: #d08402;
+    background-color: #7ACACA;
     
 }
 
@@ -2352,7 +2353,7 @@ a#nextpage:hover{
 }
 .paging span a{
     padding: 4px 10px;
-    background-color: #d08402;
+    background-color: #B0DFDF;
     -webkit-border-radius: 3px;
     border-radius: 3px;
     color:#fff;
@@ -2361,11 +2362,11 @@ a#nextpage:hover{
 
 .paging span a:hover{
     color:#fff;
-    background-color: #9d6402;
+    background-color: #7ACACA;
 }
 .current{
     color: #fff;
-    background-color: #9d6402;
+    background-color: #56BCBC;
     padding: 1px 10px;
     font-size: 12px;
     -webkit-border-radius: 3px;
@@ -2374,13 +2375,13 @@ a#nextpage:hover{
 
 
 div#prevpage.disabled{
-    background-color: #d0b182;
-    color: #f9d49b;
+    background-color: #B0DFDF;
+    color: #FFFFFF;
 }
 
 div#nextpage.disabled{
-    background-color: #d0b182;
-    color: #f9d49b;
+    background-color: #B0DFDF;
+    color: #FFFFFF;
 }
 
 /*.buttonview a#homeicon.button.radius{
